@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">liuBaigang</string>
+    <string name="net_error1">"网络不太给力，稍后刷新再试吧"</string>
+    <string name="toast_center_message">中间提示信息</string>
+</resources>

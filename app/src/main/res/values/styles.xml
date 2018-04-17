@@ -1,0 +1,89 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!-- 设置ActionBar颜色 -->
+        <item name="colorPrimary">#0371c9</item>
+        <!-- 设置状态栏底色 -->
+        <item name="colorPrimaryDark">#0371c9</item>
+        <item name="colorAccent">#3e6ff0</item>
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+
+    <style name="NoStatusStyle" parent="AppTheme">
+    <item name="android:windowTranslucentStatus">false</item>    <!--状态栏为透明,如果设置为false，则没有黑色条盖住，见下图对比-->
+    <item name="android:windowTranslucentNavigation">true</item> <!--导航栏为透明-->
+    <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <!--=================================联储启动主题start================================================-->
+
+    <style name="TKAppTheme.NoActionBar.SwipeBack">
+       <!-- 窗体是否半透明-->
+        <item name="android:windowIsTranslucent">true</item>
+       <!-- 背景是否模糊显示-->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="TKAppTheme.NoActionBar">
+        <!--无导航栏 -->
+        <item name="windowActionBar">false</item>
+        <!--无标题栏 -->
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="TKAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- 设置ActionBar颜色 -->
+        <item name="colorPrimary">#0371c9</item>
+        <!-- 设置状态栏底色 -->
+        <item name="colorPrimaryDark">#0371c9</item>
+        <item name="colorAccent">#3e6ff0</item>
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+<!--=================================联储启动主题end================================================-->
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="colorControlActivated">@color/text_color_red</item>
+        <item name="colorControlNormal">@color/text_color_white</item>
+        <item name="android:textColorLink">@android:color/holo_blue_light</item>
+        <item name="android:textColorLinkInverse">@android:color/holo_blue_light</item>
+    </style>
+
+    <!--base封装 titleBar-->
+    <style name="QianyiTitleBar_Black" >
+        <item name="android:background">@drawable/bg_titlebar_black</item>
+        <item name="backDrawable">@mipmap/btn_back_white</item>
+        <item name="barTextColor">@color/text_color_white</item>
+    </style>
+    <style name="QianyiTitleBar_White">
+        <item name="android:background">@drawable/bg_titlebar_white</item>
+        <item name="backDrawable">@mipmap/btn_back_black</item>
+        <item name="barTextColor">@color/text_color_black</item>
+    </style>
+
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+    <style name="CustomProgressDialog" parent="@style/CustomDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!--Base封装  dialog弹窗-->
+    <style name="UIAlertDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/bg_uialert</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+</resources>

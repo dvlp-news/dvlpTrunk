@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FlycoTabLayout_Lib/FlycoTabLayout_Lib.iml" filepath="$PROJECT_DIR$/FlycoTabLayout_Lib/FlycoTabLayout_Lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libsui/libsui.iml" filepath="$PROJECT_DIR$/libsui/libsui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuBaigang.iml" filepath="$PROJECT_DIR$/liuBaigang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wxpay/wxpay.iml" filepath="$PROJECT_DIR$/wxpay/wxpay.iml" />
+    </modules>
+  </component>
+</project>

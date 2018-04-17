@@ -1,0 +1,56 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/titleBar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/bg_titlebar_white">
+
+    <TextView
+        android:id="@+id/btnLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:drawableLeft="@mipmap/btn_back_white"
+        android:padding="10dp"
+        android:text="   "
+        android:gravity="center_vertical"
+
+        android:textColor="@color/text_color_white"
+        android:textSize="13sp" />
+
+
+    <TextView
+        android:id="@+id/btnRight1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/text_color_white"
+        android:textSize="@dimen/textsize_small" />
+
+    <TextView
+        android:id="@+id/btnRight2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:layout_toLeftOf="@+id/btnRight1"
+        android:textColor="@color/text_color_white"
+        android:textSize="@dimen/textsize_small" />
+
+    <ImageView
+        android:id="@+id/title_redpoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/btnRight1"
+        android:layout_alignTop="@id/btnRight1"
+        android:paddingRight="6dp"
+        android:paddingTop="12dp"
+        android:visibility="gone"
+        android:src="@mipmap/icon_red_point" />
+
+</merge>

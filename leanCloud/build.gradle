@@ -1,0 +1,53 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:26.+'
+    testCompile 'junit:junit:4.12'
+
+    // LeanCloud 基础包
+    provided('cn.leancloud.android:avoscloud-sdk:v4.6.3+'){
+
+    }
+
+    // 推送与实时聊天需要的包
+    provided('cn.leancloud.android:avoscloud-push:v4.6.3+@aar') {
+        transitive = true
+//        exclude module: 'fastjson'
+
+    }
+
+    // LeanCloud 统计包
+    provided('cn.leancloud.android:avoscloud-statistics:v4.6.3+'){
+
+    }
+
+    // LeanCloud 应用内搜索包
+    provided('cn.leancloud.android:avoscloud-search:v4.6.3+@aar'){
+    }
+
+}

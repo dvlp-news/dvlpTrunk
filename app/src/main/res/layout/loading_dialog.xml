@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/loading_view"
+
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+
+    >
+
+    <com.dvlp.news.ui.views.GifView
+        android:id="@+id/gifView"
+        android:layout_width="110dp"
+        android:layout_height="115dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"/>
+
+    <!--<TextView-->
+
+        <!--android:id="@+id/text"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/gifView"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:text="加载中，请稍候..."-->
+        <!--android:textColor="#fff"-->
+        <!--android:textSize="17sp"-->
+        <!--android:textStyle="bold"-->
+        <!--/>-->
+
+</RelativeLayout>
+

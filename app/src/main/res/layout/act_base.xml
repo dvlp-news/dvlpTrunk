@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rootLayout"
+
+        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:orientation="vertical"
+    android:fitsSystemWindows="false">
+
+
+    <ViewStub
+        android:id="@+id/stub_titleBar"
+        android:inflatedId="@+id/titleBar"
+        android:layout="@layout/layout_titlebar_black"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+    </ViewStub>
+
+</LinearLayout>

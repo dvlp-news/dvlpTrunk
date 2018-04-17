@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- 文字颜色-->
+    <color name="text_color_black">#000000</color>
+    <color name="text_color_black1">#000000</color>
+    <color name="text_color_black2">#3c3c3c</color>
+    <color name="text_color_white">#ffffff</color>
+    <color name="text_color_dark">#394659</color>
+    <color name="text_color_light">#919aa7</color>
+    <color name="text_color_link">#36b1ff</color>
+    <color name="text_color_red">#fb5050</color>
+    <color name="text_color_red_big">#ff5151</color>
+    <color name="text_color_gray">#999999</color>
+    <!--分割线-->
+    <color name="line_gray4">#e5e5e5</color>
+    <color name="line_gray_bold">#f6f6f6</color>
+
+    <color name="titleBarLineColor">#2f3446</color>
+    <color name="titleBarBackground_black">#202639</color>
+    <color name="titleBarBackground_white">#FFFFFF</color>
+
+    <color name="uilaert_dialog_btntextcolor">#ff1E90FF</color>
+
+    <color name="window_background">#eeeeee</color>
+    <color name="transparent">#00000000</color>
+    <!--按钮颜色-->
+    <color name="btn_color_red6">#FF5162</color>
+</resources>

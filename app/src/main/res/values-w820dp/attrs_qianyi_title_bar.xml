@@ -1,0 +1,6 @@
+<resources>
+    <declare-styleable name="QianyiTitleBar">
+        <attr name="barTextColor" format="color" />
+        <attr name="backDrawable" format="color|reference" />
+    </declare-styleable>
+</resources>

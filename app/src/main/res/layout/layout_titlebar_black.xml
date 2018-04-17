@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dvlp.news.ui.views.QianyiTitleBar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:qianyi="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_alignParentTop="true"
+    style="@style/QianyiTitleBar_Black">
+
+</com.dvlp.news.ui.views.QianyiTitleBar>
